@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand " role="button" routerLink="/">
+      <img src="/assets/logo.png" width="45" height="33" />
+    </a>
+    <button class="navbar-toggler" style="background-color: rgb(21, 26, 160)" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    
+      <ul class="navbar-nav me-auto mb-lg-0">
+
+        <li><a role="button" routerLink="/" style="margin-left: -20px; font-weight: bold; color: black;" class=" nav-link " >D<span style="font-size: 10px;">ATA</span>N<span style="font-size: 10px;">EMESIS</span></a></li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-black" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Get Started
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" routerLink="/ai" role="button" href="#">AI Web</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" routerLink="/automation" role="button" href="#">Automation</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/analytics" role="button" href="#">Analytics</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Tools
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" routerLink="/mitool" role="button">MI Tool</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/priceoptimization" href="#">Price Optimization</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" routerLink="/sentiment-analysis">Sentiment Analysis</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/app-pricing" role="button">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/app-blog" role="button">Blog</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            About us
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" routerLink="about-us" role="button" href="#">About-us</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="contact" role="button">Contact</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn m-1" style="font-weight: bold;" routerLink="login" role="button">
+          Login In
+        </button>
+        <button class="btn btn-primary m-1" routerLink="signup" role="button">
+          Sign Up For Free
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<hr style="color: rgb(2, 2, 167)" />
+
+<!-- <mat-toolbar style=" flex-direction: row; background-color:white;" class="">
+     
+    <span> <img style=" width:60px ;height: 60px; margin-top: 13px; margin-left: 60px;" src="/assets/medallion.avif" alt="Logo"></span>
+    <span style="flex-direction: column ; margin-left: 10px;">
+      Data Nemsis
+    </span>
+    <a mat-button color="primary" routerLink="/">Home</a>
+----------------------------------------- -->
+<!-- <button mat-button color="primary" [matMenuTriggerFor]="servicesMenu">Get Started</button>
+    <mat-menu #servicesMenu="matMenu">
+      <button mat-menu-item routerLink="/ai">AI</button>
+      <button mat-menu-item routerLink="/web">Web</button>
+      <button mat-menu-item routerLink="/automation">Automation</button>
+      <button mat-menu-item routerLink="/analytics">Analytics</button>
+    </mat-menu>
+  -----------------------------------------
+    <a mat-button color="primary" [matMenuTriggerFor]="toolMenu" >Tools</a>
+    <mat-menu #toolMenu="matMenu">
+      <button mat-menu-item routerLink="/mitool">MI Tool</button>
+      <button mat-menu-item routerLink="/priceoptimization">Price Optimization</button>
+      <button mat-menu-item routerLink="/sentiment-analysis">Sentiment Analysis</button>
+    </mat-menu>
+  ----------------------------------------- -->
+<!-- <a mat-button color="primary" routerLink="/about-us">Pricing</a>
+    <a mat-button color="primary" routerLink="/about-us">Blog</a>
+    <a mat-button color="primary" routerLink="/about-us">About</a>
+    <a mat-button color="primary" routerLink="/contact">Contact</a>
+    <span class="spacer"></span>
+    <a mat-button routerLink="/about-us" style="margin-right: 10px; "><b>Login In</b></a>
+    <a mat-button routerLink="/about-us" style=" background-color: rgb(81, 96, 228); margin-right: 150px; color: white;">Sign Up For Free</a>
+  </mat-toolbar> -->

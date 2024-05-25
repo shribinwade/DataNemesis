@@ -1,0 +1,16 @@
+hr{
+    margin: 0rem 0;
+    opacity: 5.25;
+    --bs-border-width: 2px;
+}
+.container-fluid{
+       
+    --bs-gutter-x: 3.5rem;
+}
+.container-fluid[_ngcontent-ng-c3624389333] {
+    --bs-gutter-x: 10.5rem;
+}
+.btn{--bs-border-radius: -0.625rem;
+     font-size: smaller; 
+}
+

@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="m-4 d-flex flex-wrap justify-content-start">
+    <div *ngFor="let researchCard of ResearchCard" style="width: 18rem">
+      <div class="card m-2">
+        <div class="card-body">
+          <p class="card-title" style="font-weight: bold">
+            {{ researchCard.header }}
+          </p>
+          <p></p>
+
+          <p class="card-text" style="font-size: 10px; width: 44%">
+            {{ researchCard.content }}
+          </p>
+          <a href="#" style="font-size: 10px" class="card-link">{{
+            researchCard.link
+          }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
