@@ -29,6 +29,11 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
+import { NextDirective } from './next.directive';
+import { PrevDirective } from './prev.directive';
+import { ProductServiceComponent } from './product-service/product-service.component';
+
+
 
 
 
@@ -54,6 +59,9 @@ import { BlogComponent } from './blog/blog.component';
     SignupComponent,
     PricingComponent,
     BlogComponent,
+    NextDirective,
+    PrevDirective,
+    ProductServiceComponent,
    
    
   ],

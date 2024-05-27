@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 
 @Component({
@@ -7,16 +7,36 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-logos.component.css']
 })
 export class TopLogosComponent {
+
+
+ 
+  @Output() eventEmitter = new EventEmitter();
+
+  
+  selectedCountry!: string;
+
+  
+  
+
   logos = [
-    { src: 'path/to/logo1.png', label: 'India' },
-    { src: 'path/to/logo2.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
-    { src: 'path/to/logo3.png', label: 'India' },
+    { src: '/assets/logo.png', label: 'India' },
+    { src: '/assets/logo.png', label: 'France' },
+    { src: '/assets/logo.png', label: 'Germany' },
+    { src: '/assets/logo.png', label: 'Spain' },
+    { src: '/assets/logo.png', label: 'UNITED KINGDOM' },
+    { src: '/assets/logo.png', label: 'Europe' },
+    { src: '/assets/logo.png', label: 'Denmark' },
+    { src: '/assets/logo.png', label: 'USA' },
+    { src: '/assets/logo.png', label: 'Japan' },
+    { src: '/assets/logo.png', label: 'australia' },
+    { src: '/assets/logo.png', label: 'singapore' },
     // Add more logos as needed
   ];
+
+  onCarouselItemClick(country: string) {
+    console.log(country);
+    
+   this.eventEmitter.emit(country); 
+  }
 
 }

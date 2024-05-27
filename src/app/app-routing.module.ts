@@ -13,6 +13,8 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
+import { ProductServiceComponent } from './product-service/product-service.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -26,7 +28,8 @@ const routes: Routes = [
   { path: 'signup',component: SignupComponent},
   { path: 'login',component: LoginComponent},
   { path: 'app-pricing',component: PricingComponent},
-  { path: 'app-blog',component: BlogComponent}
+  { path: 'app-blog',component: BlogComponent},
+  {path:'product-service',component: ProductServiceComponent}
 
 ];
 
