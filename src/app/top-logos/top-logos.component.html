@@ -4,7 +4,7 @@
       <div class="slider-main ">
         <div class="item"  *ngFor="let logo of logos" >
           <div type="button" (click)=onCarouselItemClick(logo.label) >
-          <img style="    margin-left: 59px; " class="mt-3" width="45" height="45" src={{logo.src}} alt="image">
+          <img style="margin-left: 59px; " class="mt-3" width="45" height="45" src={{logo.src}} alt="image">
           <div class="text"><p>{{logo.label|uppercase}}</p></div>
         </div>
 

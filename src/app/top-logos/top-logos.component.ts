@@ -12,14 +12,10 @@ export class TopLogosComponent {
  
   @Output() eventEmitter = new EventEmitter();
 
-  
   selectedCountry!: string;
 
-  
-  
-
   logos = [
-    { src: '/assets/logo.png', label: 'India' },
+    { src: '/assets/indiaflag.png', label: 'India' },
     { src: '/assets/logo.png', label: 'France' },
     { src: '/assets/logo.png', label: 'Germany' },
     { src: '/assets/logo.png', label: 'Spain' },

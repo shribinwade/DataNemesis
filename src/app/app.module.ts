@@ -32,9 +32,13 @@ import { BlogComponent } from './blog/blog.component';
 import { NextDirective } from './next.directive';
 import { PrevDirective } from './prev.directive';
 import { ProductServiceComponent } from './product-service/product-service.component';
-
-
-
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { MarketSearchComponent } from './market-search/market-search.component';
+import { CompetitorAnalysisComponent } from './competitor-analysis/competitor-analysis.component';
+import { KeywordSearchComponent } from './keyword-search/keyword-search.component';
+import { SKUSearchComponent } from '../sku-components/sku-search/sku-search.component';
+import { SkusearchComponent } from '../sku-components/skusearch/skusearch.component';
 
 
 @NgModule({
@@ -43,7 +47,6 @@ import { ProductServiceComponent } from './product-service/product-service.compo
     HeaderComponent,
     HomeComponent,
     AiComponent,
-   
     AboutUsComponent,
     ContactComponent,
     VideoComponent,
@@ -62,6 +65,14 @@ import { ProductServiceComponent } from './product-service/product-service.compo
     NextDirective,
     PrevDirective,
     ProductServiceComponent,
+    ProductDetailsComponent,
+    NotFoundComponent,
+    MarketSearchComponent,
+    CompetitorAnalysisComponent,
+    KeywordSearchComponent,
+    SKUSearchComponent,
+    SkusearchComponent,
+    
    
    
   ],
@@ -73,7 +84,8 @@ import { ProductServiceComponent } from './product-service/product-service.compo
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
-    MatGridListModule
+    MatGridListModule,
+    
     
     
    

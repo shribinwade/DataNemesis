@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="header">
+    <span
+      ><button class="btn btn-sm text-center" (click)="goBack()">
+        <span><i class="fa fa-arrow-left fa-1x"></i></span>
+      </button>
+      <h1 style="text-align: center; margin-top: -10px">
+        {{ productSiteName }}
+        <img src="{{ productSiteImgSrc }}" alt="logo" class="img-fluid" />
+      </h1>
+    </span>
+  </div>
+
+  <div class="d-flex">
+    <div class="content col-sm-3">
+      <div>
+        <app-skusearch></app-skusearch>
+      </div>
+    </div>
+    <div class="col-sm-9" style="margin-left: 10px;">
+      <div class="card">
+             <div class="col-sm-3">
+                     <div class="card m-1">
+                          <img src="/assets/indiaflag.png" alt="">
+                     </div>
+             </div>
+       
+      </div>
+      
+    </div>
+  </div>
+</div>

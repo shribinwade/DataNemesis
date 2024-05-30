@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mitool.component.css']
 })
 export class MIToolComponent implements OnInit {
-ngOnInit(): void {
 
-  
+
+  ngOnInit(): void {
 }
+
 selectedCountry!: any;
 
 eventHandler($event: any) {
